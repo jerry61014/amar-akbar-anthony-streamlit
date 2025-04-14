@@ -1,19 +1,43 @@
-# 🎈 Blank app template
 
-A simple Streamlit app template for you to modify!
+# 🎴 Amar Akbar Anthony — Casino Predictor (Streamlit)
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Welcome to **Amar Akbar Anthony**, a live casino-style prediction game built with **Streamlit**.  
+Predict which group the drawn card belongs to — Amar, Akbar, or Anthony — and track your success rates and streaks.
 
-### How to run it on your own machine
+## 📊 Features
+- 🎰 Real-time card draw simulation
+- 🔮 Live prediction strategy (currently Amar-focused)
+- 📈 Win distribution bar and pie charts
+- 🔥 Current streak and win rate tracker
+- 🏅 Player leaderboard
+- 📥 Downloadable fairness audit logs
 
-1. Install the requirements
+## 🎥 Demo
+[Live Streamlit App](https://amar-akbar-anthony-app-h94sxtheua7vhdxkb7bfvs.streamlit.app/)
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## 🚀 How to Run Locally
 
-2. Run the app
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## 🌐 Deploy on Streamlit Cloud
+1. Fork or upload this repo to your GitHub account.
+2. Go to [https://streamlit.io/cloud](https://streamlit.io/cloud).
+3. Click **New app**.
+4. Connect your repo `jerry61014/amar-akbar-anthony-streamlit`.
+5. Set **Main file** to `app.py`.
+6. Click **Deploy**.
+
+## 📝 Game Rules
+- 52-card deck split into:
+  - **Amar** → A, 2, 3, 4, 5, 6 (24 cards)
+  - **Akbar** → 7, 8, 9, 10 (16 cards)
+  - **Anthony** → J, Q, K (12 cards)
+- Deck is shuffled, split into two parts, first card discarded, second card scanned — result declared.
+- Every round starts with a fresh shuffle.
+
+---
+
+**Built by Jerry61014 🎨**
